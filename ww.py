@@ -6,8 +6,6 @@ import time
 
 root = Tk()
 root.title("weather app")
-#to add an icon
-root.iconbitmap("D:\\trial\\icons8-cancer-48.png")
 root.geometry("500x250")
 root.configure(background="#9efea3")
 
@@ -56,8 +54,6 @@ def fetch():
 
     display = Tk()
     display.title("weather app")
-    # to add an icon
-    display.iconbitmap("D:\\trial\\icons8-cancer-48.png")
     display.geometry("400x280")
 
     #fetching weather data
