@@ -112,20 +112,6 @@ fetch_btn.grid(row=2, column=2, padx=5, pady=5)
 city_label = Label(root, text="")
 city_label.grid(row=1, column=0, columnspan=3, padx=20)
 
-'''
-try:
-    api_request = requests.get(
-        "https://api.openweathermap.org/data/2.5/weather?id=1805298&appid=ff134e134fe1f7cf2de0195f54d7f964&units=metric")
-    api = json.loads(api_request.content)
-    temp = api["main"]["temp"]
-    temp_feel = api["main"]["feels_like"]
-    weather = api["weather"][0]["main"]
-    sunset = api["sys"]["sunset"]
-except:
-    api = "error..."
-    sys.exit("Error occured")
 
-
-'''
 
 root.mainloop()
